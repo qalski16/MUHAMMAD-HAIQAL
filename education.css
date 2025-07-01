@@ -1,0 +1,164 @@
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #298841 -100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: linear-gradient(135deg, #298841 -100%);
+
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.site-title {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+
+.main-container {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.page-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.content-section {
+    background: linear-gradient(135deg, #298841 -100%);
+
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-bottom: 2rem;
+}
+
+.education-item {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #32aa50 -100%);
+    color: #ffffff;
+    border-radius: 10px;
+    border-left: 5px solid #ffffff;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-level {
+    background: linear-gradient(135deg, #32aa50 -100%);
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.school-name {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.year-badge {
+    background: linear-gradient(135deg, #298841 -100%);
+    color: rgb(255, 255, 255);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background: linear-gradient(135deg, #32aa50 -100%);
+    padding: 1rem 2rem;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
